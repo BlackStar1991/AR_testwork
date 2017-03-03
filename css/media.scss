@@ -1,0 +1,334 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  header {
+
+    .header-contact-information {
+
+      margin-top: -20px;
+    }
+
+    //.box-search {
+    //
+    //  .input-search {
+    //    width: 416px;
+    //
+    //  }
+    //
+    //}
+
+    .head-box-nav {
+
+        .nav-list {
+
+          .nav-list_catalog {
+            padding-right: 22px;
+          }
+          .nav-list_item {
+            a {
+              font-size: 14px;
+            }
+          }
+
+        }
+
+
+
+
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+  header {
+    .box-logo {
+      .logo {
+        margin-left: -10px;
+        width: 179px;
+        height: 23px;
+        &.logo-big {
+          background: url("../img/logo_middle.png") 50% 50% no-repeat;
+        }
+      }
+      .under-logo-phrase {
+        top:-8px;
+        left: -10px;
+        font-size: 12px;
+      }
+    }
+
+    .box-search {
+      font-size: 10px;
+      .input-search {
+        width: 221px;
+        height: 31px;
+      }
+      .button-submit_search {
+        background: url("../img/sprite.png") no-repeat;
+        background-position: 1px -18px;
+      }
+    }
+
+    .header-contact-information {
+      margin-top: -12px;
+      .header-tel {
+        font-size: 16px;
+      }
+      .header-box-contact {
+        font-size: 10px;
+      }
+    }
+
+    .head-box-nav {
+
+      top: -15px;
+      padding-top: 0;
+      .nav-list {
+
+        .nav-list_catalog {
+          padding-right: 20px;
+        }
+        .nav-list_item {
+          a {
+            font-size: 13px;
+          }
+        }
+
+      }
+    }
+
+    .box-basket {
+      top: -40px;
+      font-size: 10px;
+
+      .box-basket-icon {
+        background: url(../img/sprite.png) no-repeat;
+        background-position: -32px -28px;
+      }
+      .box-basket-products{
+        margin-left: 0;
+        padding: 1px;
+      }
+      .box-basket-fullPrice{
+        margin-left: 20px;
+      }
+      .box-basket-LogIn {
+        margin-left: 28px;
+        &:before {
+          right: 10px;
+          background: url(../img/sprite.png) no-repeat;
+          background-position: -94px -21px;
+        }
+
+      }
+    }
+
+  }
+
+
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+  header {
+    .box-logo {
+      clear: both;
+      margin-left: 0;
+      .logo {
+        margin-top: 0;
+
+        width: 192px;
+        height: 23px;
+        &.logo-big {
+          background: url("../img/logo_small.png") 50% 50% no-repeat;
+        }
+      }
+      .under-logo-phrase {
+        top: -6px;
+        left: -10px;
+        font-size: 12px;
+      }
+    }
+
+    .box-search {
+      margin-left: 26px;
+    }
+
+    .head-box-nav{
+      top: -18px;
+    }
+
+
+  }
+
+  main{
+    .box-slider{
+      margin-top: -34px;
+      margin-left: 0;
+      width: 742px;
+      .slides{
+
+        .slide-item{
+          width: 742px;
+          height: 165px;
+          &.slide-1 {
+            background: url("../img/slider-photos/middle/thumb-16050-blog-full.png") 50% 50% no-repeat;
+          }
+          &.slide-2 {
+            background: url("http://placehold.it/742x165") 50% 50% no-repeat;
+          }
+          &.slide-3 {
+            background: url("http://placehold.it/742x165") 50% 50% no-repeat;
+          }
+        }
+      }
+
+      .box-slider-smartPhrase{
+        top: 50px;
+        left: 36px;
+        width: 287px;
+        height: 65px;
+        .smartPhrase-test{
+          font-size: 18px;
+          line-height:24px;
+        }
+      }
+      .slick-prev, .slick-next{
+        width: 20px;
+        height: 65px;
+      }
+      .slick-prev{
+        margin-top:82px;
+        left: 20px;
+      }
+      .slick-next{
+        margin-top: -85px;
+        right: 0;
+      }
+
+
+    }
+  }
+
+
+
+
+
+}
+@media only screen and (max-width: 754px) {
+
+  header {
+    .header-contact-information {
+      float: left;
+      position: relative;
+      right: 0;
+      margin-top: 0;
+      .header-tel{
+        font-size: 15px;
+      }
+    }
+  }
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  header {
+    .box-logo {
+
+      margin-left: -10px;
+      .logo {
+        margin-top: -24px;
+
+        width: 192px;
+        height: 23px;
+        &.logo-big {
+          background: url("../img/logo_small.png") 50% 50% no-repeat;
+        }
+      }
+      .under-logo-phrase {
+        top: -6px;
+        left: -10px;
+        font-size: 12px;
+      }
+    }
+
+
+    .line-header-mobileOnly{
+      display: block;
+    }
+
+    .box-search, .header-contact-information, .box-basket, .head-box-nav{
+      display: none;
+    }
+
+  }
+
+
+  main{
+    .box-slider{
+      margin-top: -76px;
+      margin-left: -16px;
+      width: 100%;
+      .slides{
+        width: 320px;
+        .slide-item{
+
+          width: 320px;
+          height: 124px;
+          &.slide-1 {
+            background: url("../img/slider-photos/small/thumb-16050-blog-full.png") 50% 50% no-repeat;
+          }
+          &.slide-2 {
+            background: url("http://placehold.it/320x124") 50% 50% no-repeat;
+          }
+          &.slide-3 {
+            background: url("http://placehold.it/320x124") 50% 50% no-repeat;
+          }
+        }
+      }
+
+      .box-slider-smartPhrase{
+        top: 50px;
+        left: 27px;
+        width: 191px;
+        height: 43px;
+        .smartPhrase-test{
+          padding: 6px 20px 5px 8px;
+          font-size: 15px;
+          line-height:18px;
+        }
+      }
+      .slick-prev, .slick-next{
+        width: 20px;
+        height: 28px;
+      }
+      .slick-prev{
+        margin-top:75px;
+        left: 20px;
+      }
+      .slick-next{
+        margin-top: -50px;
+        right: 0;
+      }
+
+
+    }
+  }
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}

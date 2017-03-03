@@ -1,0 +1,7 @@
+.idea/*
+.idea
+*.idea
+.cfg
+*.cfg
+.css/*.scss
+.css/*.map

@@ -1,0 +1,234 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  header .header-contact-information {
+    margin-top: -20px;
+  }
+  header .head-box-nav .nav-list .nav-list_catalog {
+    padding-right: 22px;
+  }
+  header .head-box-nav .nav-list .nav-list_item a {
+    font-size: 14px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  header .box-logo .logo {
+    margin-left: -10px;
+    width: 179px;
+    height: 23px;
+  }
+  header .box-logo .logo.logo-big {
+    background: url("../img/logo_middle.png") 50% 50% no-repeat;
+  }
+  header .box-logo .under-logo-phrase {
+    top: -8px;
+    left: -10px;
+    font-size: 12px;
+  }
+  header .box-search {
+    font-size: 10px;
+  }
+  header .box-search .input-search {
+    width: 221px;
+    height: 31px;
+  }
+  header .box-search .button-submit_search {
+    background: url("../img/sprite.png") no-repeat;
+    background-position: 1px -18px;
+  }
+  header .header-contact-information {
+    margin-top: -12px;
+  }
+  header .header-contact-information .header-tel {
+    font-size: 16px;
+  }
+  header .header-contact-information .header-box-contact {
+    font-size: 10px;
+  }
+  header .head-box-nav {
+    top: -15px;
+    padding-top: 0;
+  }
+  header .head-box-nav .nav-list .nav-list_catalog {
+    padding-right: 20px;
+  }
+  header .head-box-nav .nav-list .nav-list_item a {
+    font-size: 13px;
+  }
+  header .box-basket {
+    top: -40px;
+    font-size: 10px;
+  }
+  header .box-basket .box-basket-icon {
+    background: url(../img/sprite.png) no-repeat;
+    background-position: -32px -28px;
+  }
+  header .box-basket .box-basket-products {
+    margin-left: 0;
+    padding: 1px;
+  }
+  header .box-basket .box-basket-fullPrice {
+    margin-left: 20px;
+  }
+  header .box-basket .box-basket-LogIn {
+    margin-left: 28px;
+  }
+  header .box-basket .box-basket-LogIn:before {
+    right: 10px;
+    background: url(../img/sprite.png) no-repeat;
+    background-position: -94px -21px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  header .box-logo {
+    clear: both;
+    margin-left: 0;
+  }
+  header .box-logo .logo {
+    margin-top: 0;
+    width: 192px;
+    height: 23px;
+  }
+  header .box-logo .logo.logo-big {
+    background: url("../img/logo_small.png") 50% 50% no-repeat;
+  }
+  header .box-logo .under-logo-phrase {
+    top: -6px;
+    left: -10px;
+    font-size: 12px;
+  }
+  header .box-search {
+    margin-left: 26px;
+  }
+  header .head-box-nav {
+    top: -18px;
+  }
+  main .box-slider {
+    margin-top: -34px;
+    margin-left: 0;
+    width: 742px;
+  }
+  main .box-slider .slides .slide-item {
+    width: 742px;
+    height: 165px;
+  }
+  main .box-slider .slides .slide-item.slide-1 {
+    background: url("../img/slider-photos/middle/thumb-16050-blog-full.png") 50% 50% no-repeat;
+  }
+  main .box-slider .slides .slide-item.slide-2 {
+    background: url("http://placehold.it/742x165") 50% 50% no-repeat;
+  }
+  main .box-slider .slides .slide-item.slide-3 {
+    background: url("http://placehold.it/742x165") 50% 50% no-repeat;
+  }
+  main .box-slider .box-slider-smartPhrase {
+    top: 50px;
+    left: 36px;
+    width: 287px;
+    height: 65px;
+  }
+  main .box-slider .box-slider-smartPhrase .smartPhrase-test {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  main .box-slider .slick-prev, main .box-slider .slick-next {
+    width: 20px;
+    height: 65px;
+  }
+  main .box-slider .slick-prev {
+    margin-top: 82px;
+    left: 20px;
+  }
+  main .box-slider .slick-next {
+    margin-top: -85px;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 754px) {
+  header .header-contact-information {
+    float: left;
+    position: relative;
+    right: 0;
+    margin-top: 0;
+  }
+  header .header-contact-information .header-tel {
+    font-size: 15px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  header .box-logo {
+    margin-left: -10px;
+  }
+  header .box-logo .logo {
+    margin-top: -24px;
+    width: 192px;
+    height: 23px;
+  }
+  header .box-logo .logo.logo-big {
+    background: url("../img/logo_small.png") 50% 50% no-repeat;
+  }
+  header .box-logo .under-logo-phrase {
+    top: -6px;
+    left: -10px;
+    font-size: 12px;
+  }
+  header .line-header-mobileOnly {
+    display: block;
+  }
+  header .box-search, header .header-contact-information, header .box-basket, header .head-box-nav {
+    display: none;
+  }
+  main .box-slider {
+    margin-top: -76px;
+    margin-left: -16px;
+    width: 100%;
+  }
+  main .box-slider .slides {
+    width: 320px;
+  }
+  main .box-slider .slides .slide-item {
+    width: 320px;
+    height: 124px;
+  }
+  main .box-slider .slides .slide-item.slide-1 {
+    background: url("../img/slider-photos/small/thumb-16050-blog-full.png") 50% 50% no-repeat;
+  }
+  main .box-slider .slides .slide-item.slide-2 {
+    background: url("http://placehold.it/320x124") 50% 50% no-repeat;
+  }
+  main .box-slider .slides .slide-item.slide-3 {
+    background: url("http://placehold.it/320x124") 50% 50% no-repeat;
+  }
+  main .box-slider .box-slider-smartPhrase {
+    top: 50px;
+    left: 27px;
+    width: 191px;
+    height: 43px;
+  }
+  main .box-slider .box-slider-smartPhrase .smartPhrase-test {
+    padding: 6px 20px 5px 8px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  main .box-slider .slick-prev, main .box-slider .slick-next {
+    width: 20px;
+    height: 28px;
+  }
+  main .box-slider .slick-prev {
+    margin-top: 75px;
+    left: 20px;
+  }
+  main .box-slider .slick-next {
+    margin-top: -50px;
+    right: 0;
+  }
+}
+
+/* Custom, iPhone Retina */
